@@ -4,4 +4,5 @@
 	<appURL>http://www.gotomeeting.com/online/webinar</appURL>
 	<testdatapath>testdata//</testdatapath>
 	<chromedriver>misc//chromedriver</chromedriver>
+	<firefoxbrowserpath>Applications//firefox</firefoxbrowserpath>
 </envconfig>

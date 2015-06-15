@@ -13,14 +13,14 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 public class FrameworkMethods {
 	protected WebDriver driver=null;
 
-	public WebDriver getWebDriver(String browser) throws Exception{
+	public WebDriver getWebDriver(String browser, String chromeDriverExe,String firefoxPath) throws Exception{
 		if(browser.equalsIgnoreCase("chrome")){
 			System.setProperty("webdriver.chrome.driver", "misc/chromedriver");
 			driver=new ChromeDriver();
 		}else if(browser.equalsIgnoreCase("htmlunit")){
 			driver=new HtmlUnitDriver();
 		}else {
-			//System.setProperty("webdriver.firefox.bin", firefoxPath);
+			System.setProperty("webdriver.firefox.bin", firefoxPath);
 			driver=new FirefoxDriver();
 		}
 		return driver;
