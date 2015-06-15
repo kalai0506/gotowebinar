@@ -1,3 +1,9 @@
+/**
+ * @author Kalaiselvan Ulaganathan
+ * @Date 06/15/2015
+ * @Version 1.0
+ * @Description This class contains page objects related to the Schedule Webinar page of the application
+ **/
 package com.citrix.gotoapps.gotowebinar.pageobjects;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -12,7 +18,7 @@ import java.util.List;
 
 public class ScheduleWebinarPage {
 		final static Logger Log = Logger.getLogger(ScheduleWebinarPage.class.getName());
-
+		//Web Elements By variables
 		private WebDriver driver=null;
 		private By webinarTitleLocator=By.id("name");
 		private By descriptionLocator=By.id("description");
@@ -38,7 +44,10 @@ public class ScheduleWebinarPage {
 		public ScheduleWebinarPage(WebDriver driver){
 			this.driver=driver;
 		}
-		
+		/**
+		 * Verifies if the Schedule Webinar page is rendered
+		 * @return
+		 */
 		public Boolean verifyScheduleWebinarPage(){
 			webWait=new WebDriverWait(driver,20);
 			webWait.until(ExpectedConditions.titleIs("Schedule a Webinar"));

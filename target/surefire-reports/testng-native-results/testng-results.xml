@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="19830" started-at="2015-06-15T08:50:45Z" finished-at="2015-06-15T08:51:05Z">
+  <suite name="Command line suite" duration-ms="16351" started-at="2015-06-15T12:21:56Z" finished-at="2015-06-15T12:22:12Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="19830" started-at="2015-06-15T08:50:45Z" finished-at="2015-06-15T08:51:05Z">
+    <test name="Command line test" duration-ms="16351" started-at="2015-06-15T12:21:56Z" finished-at="2015-06-15T12:22:12Z">
       <class name="com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest">
-        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest@458ad742]" name="invokeBrowser" is-config="true" duration-ms="9121" started-at="2015-06-15T04:50:36Z" finished-at="2015-06-15T04:50:45Z">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest@458ad742]" name="invokeBrowser" is-config="true" duration-ms="9586" started-at="2015-06-15T08:21:46Z" finished-at="2015-06-15T08:21:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest@458ad742]" name="login" is-config="true" duration-ms="7399" started-at="2015-06-15T04:50:45Z" finished-at="2015-06-15T04:50:53Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest@458ad742]" name="login" is-config="true" duration-ms="6152" started-at="2015-06-15T08:21:56Z" finished-at="2015-06-15T08:22:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="TC001()[pri:0, instance:com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest@458ad742]" name="TC001" duration-ms="12423" started-at="2015-06-15T04:50:53Z" finished-at="2015-06-15T04:51:05Z">
+        <test-method status="PASS" signature="TC001()[pri:0, instance:com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest@458ad742]" name="TC001" duration-ms="10190" started-at="2015-06-15T08:22:02Z" finished-at="2015-06-15T08:22:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001 -->
-        <test-method status="PASS" signature="testSuiteComplete()[pri:0, instance:com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest@458ad742]" name="testSuiteComplete" is-config="true" duration-ms="0" started-at="2015-06-15T04:51:05Z" finished-at="2015-06-15T04:51:05Z">
+        <test-method status="PASS" signature="testSuiteComplete()[pri:0, instance:com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest@458ad742]" name="testSuiteComplete" is-config="true" duration-ms="2094" started-at="2015-06-15T08:22:12Z" finished-at="2015-06-15T08:22:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuiteComplete -->

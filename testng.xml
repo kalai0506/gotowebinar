@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="GotoWebinarSuite" verbose="1" >
+  <test name="Regression1"   >
+    <packages>
+      <package name="com.citrix.gotoapps.gotowebinar.testscripts" />
+   </packages>
+ </test>
+
+</suite>

@@ -1,3 +1,10 @@
+/**
+ * @author Kalaiselvan Ulaganathan
+ * @Date 06/15/2015
+ * @Version 1.0
+ * @Description This class contains page objects related to the My Webinar page of the application
+ **/
+
 package com.citrix.gotoapps.gotowebinar.pageobjects;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -67,7 +74,7 @@ public class MyWebinarPage {
 			webWait.until(ExpectedConditions.presenceOfElementLocated(webinarDateLocator));
 			WebElement webinarDateElement=driver.findElement(webinarDateLocator);
 			String webinarDate=webinarDateElement.getText();
-			Log.info("Webinar Date:"+webinarDate);
+			Log.info("Webinar Date in Application:"+webinarDate);
 			return webinarDate;
 		}
 		
@@ -78,7 +85,7 @@ public class MyWebinarPage {
 			webWait.until(ExpectedConditions.presenceOfElementLocated(webinarDateLocator));
 			WebElement webinarDateElement=driver.findElement(webinarDateLocator);
 			String webinarTime=webinarDateElement.getText();
-			Log.info("Webinar Time:"+webinarTime);
+			Log.info("Webinar Time in Application:"+webinarTime);
 			return webinarTime;
 		}
 		

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="8" started-at="2015-06-15T08:51:05Z" finished-at="2015-06-15T08:51:05Z">
+  <suite name="Command line suite" duration-ms="6" started-at="2015-06-15T12:22:14Z" finished-at="2015-06-15T12:22:14Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="8" started-at="2015-06-15T08:51:05Z" finished-at="2015-06-15T08:51:05Z">
+    <test name="Command line test" duration-ms="6" started-at="2015-06-15T12:22:14Z" finished-at="2015-06-15T12:22:14Z">
       <class name="com.citrix.gotoapps.gotowebinar.AppTest">
-        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(com.citrix.gotoapps.gotowebinar.AppTest)]" name="testApp" duration-ms="1" started-at="2015-06-15T04:51:05Z" finished-at="2015-06-15T04:51:05Z">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(com.citrix.gotoapps.gotowebinar.AppTest)]" name="testApp" duration-ms="1" started-at="2015-06-15T08:22:14Z" finished-at="2015-06-15T08:22:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->

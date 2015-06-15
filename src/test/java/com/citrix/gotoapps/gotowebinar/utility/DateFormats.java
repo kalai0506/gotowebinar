@@ -17,7 +17,7 @@ public class DateFormats {
 		calCp.add(Calendar.DAY_OF_MONTH, +daysToAdd);
 		int intStartDay=Integer.parseInt(dateFormat.format(calCp.getTime()));
 		String strStartDay=String.valueOf(intStartDay);
-		Log.info("Webinar start day: "+strStartDay); //2014/08/06 15:59:48
+		Log.debug("Webinar start day: "+strStartDay); //2014/08/06 15:59:48
 		return strStartDay;
 	}
 	
@@ -26,7 +26,7 @@ public class DateFormats {
 		GregorianCalendar calCp = new GregorianCalendar();
 		calCp.add(Calendar.DAY_OF_MONTH, +daysToAdd);
 		String strStartMonth=dateFormat.format(calCp.getTime()).toString();
-		Log.info("Webinar start Month: "+strStartMonth); //2014/08/06 15:59:48
+		Log.debug("Webinar start Month: "+strStartMonth); //2014/08/06 15:59:48
 		return strStartMonth;
 	}
 }

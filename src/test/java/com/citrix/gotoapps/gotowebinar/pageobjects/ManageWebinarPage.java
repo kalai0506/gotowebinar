@@ -1,3 +1,10 @@
+/**
+ * @author Kalaiselvan Ulaganathan
+ * @Date 06/15/2015
+ * @Version 1.0
+ * @Description This class contains page objects related to the Manage Webinar page of the application
+ **/
+
 package com.citrix.gotoapps.gotowebinar.pageobjects;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -7,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ManageWebinarPage {
-		final static Logger Log = Logger.getLogger(ScheduleWebinarPage.class.getName());
+		final static Logger Log = Logger.getLogger(ManageWebinarPage.class.getName());
 
 		private WebDriver driver=null;
 		private By webinarKeyLocator=By.className("webinar-data");
@@ -18,6 +25,10 @@ public class ManageWebinarPage {
 			this.driver=driver;
 		}
 		
+		/**
+		 * To check if the Manage Webinar page is displayed
+		 * @return true if Manage Webinar page is displayed
+		 */
 		public Boolean verifyManageWebinarPage(){
 			webWait=new WebDriverWait(driver,20);
 			webWait.until(ExpectedConditions.titleIs("Manage Webinar"));
@@ -30,6 +41,10 @@ public class ManageWebinarPage {
 			}
 		}
 		
+		/**
+		 * To get Unique ID of every Webinar
+		 * @return
+		 */
 		public String getWebinarKey(){
 			WebElement txtWebinarKey=driver.findElement(webinarKeyLocator);
 			String webinarID=txtWebinarKey.getAttribute("data-webinarkey");
@@ -37,6 +52,10 @@ public class ManageWebinarPage {
 			return webinarID;
 		}
 		
+		/**
+		 * To click My Webinars menu item
+		 * @return
+		 */
 		public Boolean clickMyWebinars(){
 			try{
 			webWait=new WebDriverWait(driver,10);

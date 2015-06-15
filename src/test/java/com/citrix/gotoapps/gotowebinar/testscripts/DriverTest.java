@@ -24,7 +24,7 @@ import com.citrix.gotoapps.gotowebinar.utility.XMLUtility;
 
 public class DriverTest {
 	//Web driver Instance used in the test suite
-	protected static WebDriver driver; 
+	protected WebDriver driver; 
 	//Low level logging using log4j
 	final static Logger Log = Logger.getLogger(DriverTest.class.getName());
 	protected static String testDataPath="";
@@ -79,10 +79,10 @@ public class DriverTest {
 	@AfterSuite
 	public void testSuiteComplete() throws Exception {
 		//Log out of the application after test execution
-		/*lgn.signOut();
+		lgn.signOut();
 		//Closing the Browser & its instance
 		driver.close();
-		driver.quit();*/
+		driver.quit();
 		Log.info("End of Test suite execution");
 	}
 }
