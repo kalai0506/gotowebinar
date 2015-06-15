@@ -19,7 +19,7 @@ public class ScheduleWebinarPage {
 		private By startDatePickerLocator=By.xpath(".//*[@id='dateContainer_0']/div[1]/div/img");
 		private By startDatePickerTitleLocator=By.xpath(".//*[@id='ui-datepicker-div']/h6");
 		private By startDatePickerMonthLocator=By.className("ui-datepicker-month");
-		private By nextMonthLinkLocator=By.className("ui-datepicker-month");
+		private By nextMonthLinkLocator=By.linkText("Next");
 		private By requiredDateLocator=null;
 		private By startTimeLocator=By.id("webinarTimesForm.dateTimes_0.startTime");
 		private By endTimeLocator=By.id("webinarTimesForm.dateTimes_0.endTime");
@@ -85,18 +85,32 @@ public class ScheduleWebinarPage {
 		
 		public String getMonth(){
 			String monthText=null;
+			webWait=new WebDriverWait(driver,20);
+			webWait.until(ExpectedConditions.presenceOfElementLocated(startDatePickerMonthLocator));
 			WebElement currentMonth=driver.findElement(startDatePickerMonthLocator);
 			monthText=currentMonth.getText();
 			return monthText;
 		}
 		
-		public void clickNextMonth(){
+		public void clickNextMonth(String expectedMonth){
+			webWait=new WebDriverWait(driver,20);
 			WebElement linkNextMonth=driver.findElement(nextMonthLinkLocator);
-			linkNextMonth.click();
+			String currMonth=this.getMonth();
+			Log.info("Current Month inside clickNextMonth method: "+currMonth);
+			int i=1;
+			while(!currMonth.equalsIgnoreCase(expectedMonth)){
+				Log.info("Clicking next Month link"+i+"times");
+				webWait.until(ExpectedConditions.presenceOfElementLocated(nextMonthLinkLocator));
+				linkNextMonth.click();
+				i++;
+				currMonth=this.getMonth();
+			}
 		}
 		
 		public void clickRequiredDate(String txtDay){
 			requiredDateLocator=By.linkText(txtDay);
+			webWait=new WebDriverWait(driver,20);
+			webWait.until(ExpectedConditions.presenceOfElementLocated(requiredDateLocator));
 			WebElement linkDate=driver.findElement(requiredDateLocator);
 			linkDate.click();
 		}

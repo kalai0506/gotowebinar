@@ -39,25 +39,22 @@ public class XMLUtility {
 			System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
 			NodeList nList = doc.getElementsByTagName("envconfig");
 			
-			for (int temp = 0; temp < nList.getLength(); temp++) {
-				 
-				Node nNode = nList.item(temp);
-		 
-				System.out.println("\nCurrent Element :" + nNode.getNodeName());
-		 
+			for (int temp = 0; temp < nList.getLength(); temp++) {		 
+				Node nNode = nList.item(temp);		 
 				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 					Element eElement = (Element) nNode;
 					//firefoxPath=eElement.getElementsByTagName("FireFoxPath").item(0).getTextContent();
 					//System.out.println("firefoxPath : " + firefoxPath);
 					browser=eElement.getElementsByTagName("browser").item(0).getTextContent();
 					appURL=eElement.getElementsByTagName("appURL").item(0).getTextContent();
-					System.out.println("appURL : " + appURL);
 					testDataPath=eElement.getElementsByTagName("testdatapath").item(0).getTextContent();
 					chromeDriverPath=eElement.getElementsByTagName("chromedriver").item(0).getTextContent();
+					firefoxPath=eElement.getElementsByTagName("firefoxbrowserpath").item(0).getTextContent();
 					hashMapEnvVariables.put("browser", browser);
 					hashMapEnvVariables.put("appURL", appURL);
 					hashMapEnvVariables.put("testDataPath", testDataPath);
 					hashMapEnvVariables.put("chromeDriverPath", chromeDriverPath);
+					hashMapEnvVariables.put("firefoxBrowserPath", firefoxPath);
 				}
 			}
 		} catch (FileNotFoundException e) {

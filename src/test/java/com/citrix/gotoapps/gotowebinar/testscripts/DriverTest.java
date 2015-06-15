@@ -25,6 +25,7 @@ import com.citrix.gotoapps.gotowebinar.utility.XMLUtility;
 public class DriverTest {
 	//Web driver Instance used in the test suite
 	protected static WebDriver driver; 
+	//Low level logging using log4j
 	final static Logger Log = Logger.getLogger(DriverTest.class.getName());
 	protected static String testDataPath="";
 	private UserAuthentication lgn = null;
@@ -36,20 +37,27 @@ public class DriverTest {
 	 */
 	@BeforeSuite
 	public void invokeBrowser() throws Exception {
+		DOMConfigurator.configure("resources//log4j.xml");
 		Log.info("Test suite execution starts now");
+		//Extract the environment variables from Resources/envconfig.xml 
 		XMLUtility xmlUtil=new XMLUtility();
 		HashMap<String,String> envXMLVariables=xmlUtil.getXMLData();
 		String browser=envXMLVariables.get("browser");
 		String appURL=envXMLVariables.get("appURL");
 		testDataPath=envXMLVariables.get("testDataPath");
+		//Used only if the selected browser is chrome
 		String chromeDriverPath=envXMLVariables.get("chromeDriverPath");
+		//Used only if the selected browser is firefox
 		String firefoxBrowserPath=envXMLVariables.get("firefoxBrowserPath");
+		//Instantiate webdriver based on selected browser to test
 		FrameworkMethods objFrmWrk=new FrameworkMethods();
 		driver = objFrmWrk.getWebDriver(browser,chromeDriverPath,firefoxBrowserPath);
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);	
+		//Implicit timeout setting for the test suite
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		//launch the browser & open the app URL
 		driver.get(appURL);
+		//Maximize the browser window
 		driver.manage().window().maximize();
-		DOMConfigurator.configure("resources//log4j.xml");
 	}
 	
 	/**
@@ -59,6 +67,7 @@ public class DriverTest {
 	@BeforeTest
 	public void login() throws Exception{
 		lgn = new UserAuthentication(driver);
+		//User authentication - Test Execution will stop if login fails.
 		Assert.assertEquals(lgn.login(testDataPath),"User Logged in","User login failed");
 	}
 	
@@ -69,9 +78,11 @@ public class DriverTest {
 	 */
 	@AfterSuite
 	public void testSuiteComplete() throws Exception {
-		lgn.signOut();
+		//Log out of the application after test execution
+		/*lgn.signOut();
+		//Closing the Browser & its instance
 		driver.close();
-		driver.quit();
+		driver.quit();*/
 		Log.info("End of Test suite execution");
 	}
 }

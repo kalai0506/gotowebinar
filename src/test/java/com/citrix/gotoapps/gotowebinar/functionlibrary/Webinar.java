@@ -46,7 +46,6 @@ public class Webinar {
 			String language=mapTestData.get("Language");
 			Log.info("Language: "+language);
 					
-			Log.debug("click enter secure button");
 			MyWebinarPage myWebinar=new MyWebinarPage(driver);
 			if(myWebinar.verifyMyWebinarPage()){
 				myWebinar.clickScheduleWebinar();
@@ -57,13 +56,16 @@ public class Webinar {
 				objWebinar.openStartDatePicker();
 				objWebinar.verifyStartDatePicker();
 				String currMonth=objWebinar.getMonth();
+				Log.info("Current Month in the calendar: "+currMonth);
 				objDate=new DateFormats();
 				startDay=objDate.getStartDay(daysToStart);
 				startMonth=objDate.getStartMonth(daysToStart);
-				if(currMonth.equals(startMonth)){
+				if(currMonth.equalsIgnoreCase(startMonth)){
+					Log.info("Months are same in calendar & calculated:"+currMonth+" "+startMonth);
 					objWebinar.clickRequiredDate(startDay);
 				}else{
-					objWebinar.clickNextMonth();
+					Log.info("Months are different in calendar & calculated:"+currMonth+" "+startMonth);
+					objWebinar.clickNextMonth(startMonth);
 					objWebinar.clickRequiredDate(startDay);
 				}
 				objWebinar.enterStartTime(startTime, startTimeAMPM);
@@ -148,10 +150,18 @@ public class Webinar {
 
 	public String[] getDayMonth(String webinarDate) {
 		String[] webinarDateDetails = new String[2];
-		webinarDateDetails[0] = webinarDate.substring(5, 8);
-		Log.info("Month: " + webinarDateDetails[0]);
-		webinarDateDetails[1] = webinarDate.substring(10, 11).trim();
-		Log.info("Day: " + webinarDateDetails[1]);
+		
+		String pattern = "(^[A-Z][a-z][a-z])(,\\s)([A-Z][a-z][a-z])(\\s)([0-9])";
+		// Create a Pattern object
+		Pattern r = Pattern.compile(pattern);
+		// Now create matcher object.
+		Matcher m = r.matcher(webinarDate);
+		while (m.find()) {
+			webinarDateDetails[0] = m.group(3);
+			webinarDateDetails[1] = m.group(5);
+		}
+		Log.info("Webinar Start Month: " + webinarDateDetails[0]);
+		Log.info("Webinar Start Day: " + webinarDateDetails[1]);
 		return webinarDateDetails;
 	}
 
@@ -164,13 +174,6 @@ public class Webinar {
 		// Now create matcher object.
 		Matcher m = r.matcher(webinarTime);
 		while (m.find()) {
-			System.out.println("Found value: " + m.group(1));
-			System.out.println("Found value: " + m.group(2));
-			System.out.println("Found value: " + m.group(3));
-			System.out.println("Found value: " + m.group(4));
-			System.out.println("Found value: " + m.group(5));
-			System.out.println("Found value: " + m.group(6));
-			System.out.println("Found value: " + m.group(7));
 			webinarTimeDetails[0] = m.group(1);
 			webinarTimeDetails[1] = m.group(3);
 			webinarTimeDetails[2] = m.group(5);

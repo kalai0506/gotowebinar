@@ -6,7 +6,9 @@
       <class name="com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest">
         <methods>
           <include name="TC001"/>
+          <include name="testSuiteComplete"/>
           <include name="invokeBrowser"/>
+          <include name="login"/>
         </methods>
       </class> <!-- com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest -->
     </classes>
