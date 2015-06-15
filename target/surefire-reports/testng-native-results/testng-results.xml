@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="16537" started-at="2015-06-15T05:48:47Z" finished-at="2015-06-15T05:49:03Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="16537" started-at="2015-06-15T05:48:47Z" finished-at="2015-06-15T05:49:03Z">
+      <class name="com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest@458ad742]" name="invokeBrowser" is-config="true" duration-ms="9579" started-at="2015-06-15T01:48:37Z" finished-at="2015-06-15T01:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest@458ad742]" name="login" is-config="true" duration-ms="6916" started-at="2015-06-15T01:48:47Z" finished-at="2015-06-15T01:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="TC001()[pri:0, instance:com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest@458ad742]" name="TC001" duration-ms="9613" started-at="2015-06-15T01:48:54Z" finished-at="2015-06-15T01:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+        <test-method status="PASS" signature="testSuiteComplete()[pri:0, instance:com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest@458ad742]" name="testSuiteComplete" is-config="true" duration-ms="2494" started-at="2015-06-15T01:49:03Z" finished-at="2015-06-15T01:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuiteComplete -->
+      </class> <!-- com.citrix.gotoapps.gotowebinar.testscripts.ScheduleWebinarTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<envconfig>
+	<browser>chrome</browser>
+	<appURL>http://www.gotomeeting.com/online/webinar</appURL>
+	<testdatapath>testdata//</testdatapath>
+	<chromedriver>misc//chromedriver</chromedriver>
+</envconfig>

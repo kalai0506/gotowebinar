@@ -1,0 +1,340 @@
+2015-06-14 21:38:58,685 INFO  [UserAuthentication] UserNameeie_kalai@yahoo.com 
+2015-06-14 21:38:59,602 INFO  [HomePage] Page Title is: Webinar & Online Conference | GoToWebinar 
+2015-06-14 21:39:04,600 INFO  [UserAuthentication] Page Title is: Citrix Secure Sign In 
+2015-06-14 21:39:04,600 INFO  [UserAuthentication] Email Address: eie_kalai@yahoo.com 
+2015-06-14 21:39:20,985 INFO  [UserAuthentication] Sign In button clicked 
+2015-06-14 21:39:21,030 INFO  [ScheduleWebinarTest] Test case TC001 execution starts now. 
+2015-06-14 21:39:21,720 INFO  [MyWebinarPage] Page Title is: My Webinars 
+2015-06-14 21:39:21,720 INFO  [MyWebinarPage] My Webinar Page Title is same as Expected: My Webinars Actual: My Webinars 
+2015-06-14 21:39:26,390 INFO  [Webinar] Day to start: 3 
+2015-06-14 21:39:26,390 INFO  [Webinar] Start Time: 10:12 
+2015-06-14 21:39:26,390 INFO  [Webinar] Start Time AMPM: AM 
+2015-06-14 21:39:26,390 INFO  [Webinar] End Time: 11:00 
+2015-06-14 21:39:26,390 INFO  [Webinar] Start Time AMPM: PM 
+2015-06-14 21:39:26,390 INFO  [Webinar] Time Zone: (GMT-04:00) Eastern Time (US and Canada) 
+2015-06-14 21:39:26,390 INFO  [Webinar] Language: Français 
+2015-06-14 21:39:26,620 INFO  [ScheduleWebinarPage] Page Title is: Schedule a Webinar 
+2015-06-14 21:39:26,620 INFO  [ScheduleWebinarPage] New Webinar Title: Full day Webinar 
+2015-06-14 21:39:34,914 INFO  [ScheduleWebinarPage] Date Picker Title is: Choose a date: 
+2015-06-14 21:39:35,643 INFO  [DateFormats] 17 
+2015-06-14 21:39:35,643 INFO  [DateFormats] June 
+2015-06-14 21:39:40,426 INFO  [ScheduleWebinarPage] Total List Items=2 
+2015-06-14 21:39:40,560 INFO  [ScheduleWebinarPage] Current List Item=AM 
+2015-06-14 21:39:40,560 INFO  [ScheduleWebinarPage] Current List Item is selected=AM 
+2015-06-14 21:39:42,909 INFO  [ScheduleWebinarPage] Total List Items=2 
+2015-06-14 21:39:42,917 INFO  [ScheduleWebinarPage] Current List Item=AM 
+2015-06-14 21:39:42,928 INFO  [ScheduleWebinarPage] Current List Item=PM 
+2015-06-14 21:39:42,928 INFO  [ScheduleWebinarPage] Current List Item is selected=PM 
+2015-06-14 21:39:43,060 INFO  [ScheduleWebinarPage] Total List Items=73 
+2015-06-14 21:39:43,070 INFO  [ScheduleWebinarPage] Current List Item=(GMT-11:00) Midway Island, Samoa 
+2015-06-14 21:39:43,080 INFO  [ScheduleWebinarPage] Current List Item=(GMT-10:00) Hawaii 
+2015-06-14 21:39:43,090 INFO  [ScheduleWebinarPage] Current List Item=(GMT-08:00) Alaska 
+2015-06-14 21:39:43,099 INFO  [ScheduleWebinarPage] Current List Item=(GMT-07:00) Arizona 
+2015-06-14 21:39:43,111 INFO  [ScheduleWebinarPage] Current List Item=(GMT-07:00) Pacific Time (US and Canada);Tijuana 
+2015-06-14 21:39:43,118 INFO  [ScheduleWebinarPage] Current List Item=(GMT-06:00) Mountain Time (US and Canada) 
+2015-06-14 21:39:43,129 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Bogota, Lima, Quito 
+2015-06-14 21:39:43,136 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Central Time (US and Canada) 
+2015-06-14 21:39:43,147 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Mexico City 
+2015-06-14 21:39:43,157 INFO  [ScheduleWebinarPage] Current List Item=(GMT-04:30) Caracas, La Paz 
+2015-06-14 21:39:43,167 INFO  [ScheduleWebinarPage] Current List Item=(GMT-04:00) Eastern Time (US and Canada) 
+2015-06-14 21:39:43,167 INFO  [ScheduleWebinarPage] Current List Item is selected=(GMT-04:00) Eastern Time (US and Canada) 
+2015-06-14 21:39:43,383 INFO  [ScheduleWebinarPage] Total List Items=6 
+2015-06-14 21:39:43,391 INFO  [ScheduleWebinarPage] Current List Item=Deutsch 
+2015-06-14 21:39:43,399 INFO  [ScheduleWebinarPage] Current List Item=English 
+2015-06-14 21:39:43,409 INFO  [ScheduleWebinarPage] Current List Item=Español 
+2015-06-14 21:39:43,417 INFO  [ScheduleWebinarPage] Current List Item=Français 
+2015-06-14 21:39:43,417 INFO  [ScheduleWebinarPage] Current List Item is selected=Français 
+2015-06-14 21:39:46,928 INFO  [Webinar] Day to start: 3 
+2015-06-14 21:39:46,928 INFO  [Webinar] Start Time: 10:12 
+2015-06-14 21:39:46,928 INFO  [Webinar] Start Time AMPM: AM 
+2015-06-14 21:39:46,932 INFO  [Webinar] End Time: 11:00 
+2015-06-14 21:39:46,932 INFO  [Webinar] Start Time AMPM: PM 
+2015-06-14 21:39:46,932 INFO  [Webinar] Time Zone: (GMT-04:00) Eastern Time (US and Canada) 
+2015-06-14 21:39:46,932 INFO  [Webinar] Language: Français 
+2015-06-14 21:39:47,028 INFO  [ScheduleWebinarPage] Page Title is: Manage Webinar 
+2015-06-14 21:39:47,064 INFO  [ScheduleWebinarPage] webinarID5285228517094383362 
+2015-06-14 21:39:48,939 INFO  [MyWebinarPage] Page Title is: My Webinars 
+2015-06-14 21:39:48,939 INFO  [MyWebinarPage] My Webinar Page Title is same as Expected: My Webinars Actual: My Webinars 
+2015-06-14 21:39:50,311 INFO  [MyWebinarPage] Webinar Date:Wed, Jun 17 
+2015-06-14 21:39:50,356 INFO  [MyWebinarPage] Webinar Time:10:12 AM - 11:00 PM EDT 
+2015-06-14 21:39:50,356 INFO  [DateFormats] June 
+2015-06-14 21:39:50,357 INFO  [DateFormats] 17 
+2015-06-14 21:39:50,357 INFO  [Webinar] Month: Jun 
+2015-06-14 21:39:50,357 INFO  [Webinar] Day: 7 
+2015-06-14 21:39:50,357 INFO  [Webinar] Start Time: 10:1 
+2015-06-14 21:39:50,357 INFO  [Webinar] Start AMPM: A 
+2015-06-14 21:39:50,357 INFO  [Webinar] End Time: 11: 
+2015-06-14 21:39:50,357 INFO  [Webinar] End AMPM:  
+2015-06-14 21:39:52,393 INFO  [DriverTest] End of Test suite execution 
+2015-06-15 00:04:03,223 INFO  [UserAuthentication] UserNameeie_kalai@yahoo.com 
+2015-06-15 00:04:04,360 INFO  [HomePage] Page Title is: Webinar & Online Conference | GoToWebinar 
+2015-06-15 00:04:15,751 INFO  [UserAuthentication] Page Title is: Citrix Secure Sign In 
+2015-06-15 00:04:15,751 INFO  [UserAuthentication] Email Address: eie_kalai@yahoo.com 
+2015-06-15 00:04:23,577 INFO  [UserAuthentication] Sign In button clicked 
+2015-06-15 00:04:23,609 INFO  [ScheduleWebinarTest] Test case TC001 execution starts now. 
+2015-06-15 00:04:24,146 INFO  [MyWebinarPage] Page Title is: My Webinars 
+2015-06-15 00:04:24,146 INFO  [MyWebinarPage] My Webinar Page Title is same as Expected: My Webinars Actual: My Webinars 
+2015-06-15 00:04:27,708 INFO  [Webinar] Day to start: 3 
+2015-06-15 00:04:27,708 INFO  [Webinar] Start Time: 10:12 
+2015-06-15 00:04:27,708 INFO  [Webinar] Start Time AMPM: AM 
+2015-06-15 00:04:27,708 INFO  [Webinar] End Time: 11:00 
+2015-06-15 00:04:27,708 INFO  [Webinar] Start Time AMPM: PM 
+2015-06-15 00:04:27,708 INFO  [Webinar] Time Zone: (GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 00:04:27,708 INFO  [Webinar] Language: Français 
+2015-06-15 00:04:27,927 INFO  [ScheduleWebinarPage] Page Title is: Schedule a Webinar 
+2015-06-15 00:04:27,927 INFO  [ScheduleWebinarPage] New Webinar Title: Full day Webinar 
+2015-06-15 00:04:33,612 INFO  [ScheduleWebinarPage] Date Picker Title is: Choose a date: 
+2015-06-15 00:04:34,276 INFO  [DateFormats] 18 
+2015-06-15 00:04:34,276 INFO  [DateFormats] June 
+2015-06-15 00:04:38,234 INFO  [ScheduleWebinarPage] Total List Items=2 
+2015-06-15 00:04:38,243 INFO  [ScheduleWebinarPage] Current List Item=AM 
+2015-06-15 00:04:38,243 INFO  [ScheduleWebinarPage] Current List Item is selected=AM 
+2015-06-15 00:04:38,476 INFO  [ScheduleWebinarPage] Total List Items=2 
+2015-06-15 00:04:38,487 INFO  [ScheduleWebinarPage] Current List Item=AM 
+2015-06-15 00:04:38,497 INFO  [ScheduleWebinarPage] Current List Item=PM 
+2015-06-15 00:04:38,497 INFO  [ScheduleWebinarPage] Current List Item is selected=PM 
+2015-06-15 00:04:38,631 INFO  [ScheduleWebinarPage] Total List Items=73 
+2015-06-15 00:04:38,642 INFO  [ScheduleWebinarPage] Current List Item=(GMT-11:00) Midway Island, Samoa 
+2015-06-15 00:04:38,650 INFO  [ScheduleWebinarPage] Current List Item=(GMT-10:00) Hawaii 
+2015-06-15 00:04:38,662 INFO  [ScheduleWebinarPage] Current List Item=(GMT-08:00) Alaska 
+2015-06-15 00:04:38,670 INFO  [ScheduleWebinarPage] Current List Item=(GMT-07:00) Arizona 
+2015-06-15 00:04:38,680 INFO  [ScheduleWebinarPage] Current List Item=(GMT-07:00) Pacific Time (US and Canada);Tijuana 
+2015-06-15 00:04:38,689 INFO  [ScheduleWebinarPage] Current List Item=(GMT-06:00) Mountain Time (US and Canada) 
+2015-06-15 00:04:38,697 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Bogota, Lima, Quito 
+2015-06-15 00:04:38,707 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Central Time (US and Canada) 
+2015-06-15 00:04:38,716 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Mexico City 
+2015-06-15 00:04:38,732 INFO  [ScheduleWebinarPage] Current List Item=(GMT-04:30) Caracas, La Paz 
+2015-06-15 00:04:38,743 INFO  [ScheduleWebinarPage] Current List Item=(GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 00:04:38,743 INFO  [ScheduleWebinarPage] Current List Item is selected=(GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 00:04:38,978 INFO  [ScheduleWebinarPage] Total List Items=6 
+2015-06-15 00:04:38,990 INFO  [ScheduleWebinarPage] Current List Item=Deutsch 
+2015-06-15 00:04:39,000 INFO  [ScheduleWebinarPage] Current List Item=English 
+2015-06-15 00:04:39,008 INFO  [ScheduleWebinarPage] Current List Item=Español 
+2015-06-15 00:04:39,019 INFO  [ScheduleWebinarPage] Current List Item=Français 
+2015-06-15 00:04:39,019 INFO  [ScheduleWebinarPage] Current List Item is selected=Français 
+2015-06-15 00:04:41,801 INFO  [Webinar] Day to start: 3 
+2015-06-15 00:04:41,801 INFO  [Webinar] Start Time: 10:12 
+2015-06-15 00:04:41,801 INFO  [Webinar] Start Time AMPM: AM 
+2015-06-15 00:04:41,801 INFO  [Webinar] End Time: 11:00 
+2015-06-15 00:04:41,801 INFO  [Webinar] Start Time AMPM: PM 
+2015-06-15 00:04:41,801 INFO  [Webinar] Time Zone: (GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 00:04:41,801 INFO  [Webinar] Language: Français 
+2015-06-15 00:04:41,886 INFO  [ScheduleWebinarPage] Page Title is: Manage Webinar 
+2015-06-15 00:04:41,931 INFO  [ScheduleWebinarPage] webinarID7948192903011948546 
+2015-06-15 00:04:43,580 INFO  [MyWebinarPage] Page Title is: My Webinars 
+2015-06-15 00:04:43,580 INFO  [MyWebinarPage] My Webinar Page Title is same as Expected: My Webinars Actual: My Webinars 
+2015-06-15 00:04:44,616 INFO  [MyWebinarPage] Webinar Date:Thu, Jun 18 
+2015-06-15 00:04:44,666 INFO  [MyWebinarPage] Webinar Time:10:12 AM - 11:00 PM EDT 
+2015-06-15 00:04:44,666 INFO  [DateFormats] June 
+2015-06-15 00:04:44,666 INFO  [DateFormats] 18 
+2015-06-15 00:04:44,666 INFO  [Webinar] Month: Jun 
+2015-06-15 00:04:44,666 INFO  [Webinar] Day: 8 
+2015-06-15 00:04:44,666 INFO  [Webinar] Start Time: 10:12 
+2015-06-15 00:04:44,666 INFO  [Webinar] Start AMPM: AM 
+2015-06-15 00:04:44,666 INFO  [Webinar] End Time: 11:00 
+2015-06-15 00:04:44,666 INFO  [Webinar] End AMPM: PM 
+2015-06-15 00:04:45,215 INFO  [DriverTest] End of Test suite execution 
+2015-06-15 01:08:29,281 INFO  [UserAuthentication] UserNameeie_kalai@yahoo.com 
+2015-06-15 01:08:29,793 INFO  [HomePage] Page Title is: Webinar & Online Conference | GoToWebinar 
+2015-06-15 01:08:34,533 INFO  [UserAuthentication] Page Title is: Citrix Secure Sign In 
+2015-06-15 01:08:34,533 INFO  [UserAuthentication] Email Address: eie_kalai@yahoo.com 
+2015-06-15 01:08:43,350 INFO  [UserAuthentication] Sign In button clicked 
+2015-06-15 01:08:43,395 INFO  [ScheduleWebinarTest] Test case TC001 execution starts now. 
+2015-06-15 01:08:43,674 INFO  [Webinar] Day to start: 3 
+2015-06-15 01:08:43,674 INFO  [Webinar] Start Time: 10:12 
+2015-06-15 01:08:43,674 INFO  [Webinar] Start Time AMPM: AM 
+2015-06-15 01:08:43,674 INFO  [Webinar] End Time: 11:00 
+2015-06-15 01:08:43,674 INFO  [Webinar] Start Time AMPM: PM 
+2015-06-15 01:08:43,674 INFO  [Webinar] Time Zone: (GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 01:08:43,674 INFO  [Webinar] Language: Français 
+2015-06-15 01:08:44,095 INFO  [MyWebinarPage] Page Title is: My Webinars 
+2015-06-15 01:08:44,095 INFO  [MyWebinarPage] My Webinar Page Title is same as Expected: My Webinars Actual: My Webinars 
+2015-06-15 01:08:47,270 INFO  [ScheduleWebinarPage] Page Title is: Schedule a Webinar 
+2015-06-15 01:08:47,270 INFO  [ScheduleWebinarPage] New Webinar Title: Full day Webinar 
+2015-06-15 01:08:53,900 INFO  [ScheduleWebinarPage] Date Picker Title is: Choose a date: 
+2015-06-15 01:08:54,616 INFO  [DateFormats] 18 
+2015-06-15 01:08:54,616 INFO  [DateFormats] June 
+2015-06-15 01:08:59,022 INFO  [ScheduleWebinarPage] Total List Items=2 
+2015-06-15 01:08:59,031 INFO  [ScheduleWebinarPage] Current List Item=AM 
+2015-06-15 01:08:59,031 INFO  [ScheduleWebinarPage] Current List Item is selected=AM 
+2015-06-15 01:08:59,275 INFO  [ScheduleWebinarPage] Total List Items=2 
+2015-06-15 01:08:59,283 INFO  [ScheduleWebinarPage] Current List Item=AM 
+2015-06-15 01:08:59,291 INFO  [ScheduleWebinarPage] Current List Item=PM 
+2015-06-15 01:08:59,291 INFO  [ScheduleWebinarPage] Current List Item is selected=PM 
+2015-06-15 01:08:59,424 INFO  [ScheduleWebinarPage] Total List Items=73 
+2015-06-15 01:08:59,434 INFO  [ScheduleWebinarPage] Current List Item=(GMT-11:00) Midway Island, Samoa 
+2015-06-15 01:08:59,445 INFO  [ScheduleWebinarPage] Current List Item=(GMT-10:00) Hawaii 
+2015-06-15 01:08:59,453 INFO  [ScheduleWebinarPage] Current List Item=(GMT-08:00) Alaska 
+2015-06-15 01:08:59,465 INFO  [ScheduleWebinarPage] Current List Item=(GMT-07:00) Arizona 
+2015-06-15 01:08:59,472 INFO  [ScheduleWebinarPage] Current List Item=(GMT-07:00) Pacific Time (US and Canada);Tijuana 
+2015-06-15 01:08:59,484 INFO  [ScheduleWebinarPage] Current List Item=(GMT-06:00) Mountain Time (US and Canada) 
+2015-06-15 01:08:59,494 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Bogota, Lima, Quito 
+2015-06-15 01:08:59,503 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Central Time (US and Canada) 
+2015-06-15 01:08:59,513 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Mexico City 
+2015-06-15 01:08:59,521 INFO  [ScheduleWebinarPage] Current List Item=(GMT-04:30) Caracas, La Paz 
+2015-06-15 01:08:59,531 INFO  [ScheduleWebinarPage] Current List Item=(GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 01:08:59,531 INFO  [ScheduleWebinarPage] Current List Item is selected=(GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 01:08:59,706 INFO  [ScheduleWebinarPage] Total List Items=6 
+2015-06-15 01:08:59,716 INFO  [ScheduleWebinarPage] Current List Item=Deutsch 
+2015-06-15 01:08:59,727 INFO  [ScheduleWebinarPage] Current List Item=English 
+2015-06-15 01:08:59,736 INFO  [ScheduleWebinarPage] Current List Item=Español 
+2015-06-15 01:08:59,745 INFO  [ScheduleWebinarPage] Current List Item=Français 
+2015-06-15 01:08:59,745 INFO  [ScheduleWebinarPage] Current List Item is selected=Français 
+2015-06-15 01:09:02,507 INFO  [Webinar] Day to start: 3 
+2015-06-15 01:09:02,507 INFO  [Webinar] Start Time: 10:12 
+2015-06-15 01:09:02,507 INFO  [Webinar] Start Time AMPM: AM 
+2015-06-15 01:09:02,507 INFO  [Webinar] End Time: 11:00 
+2015-06-15 01:09:02,507 INFO  [Webinar] Start Time AMPM: PM 
+2015-06-15 01:09:02,507 INFO  [Webinar] Time Zone: (GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 01:09:02,507 INFO  [Webinar] Language: Français 
+2015-06-15 01:09:02,533 INFO  [ScheduleWebinarPage] Page Title is: Manage Webinar 
+2015-06-15 01:09:02,558 INFO  [ScheduleWebinarPage] webinarID6515624909532425730 
+2015-06-15 01:09:04,387 INFO  [MyWebinarPage] Page Title is: My Webinars 
+2015-06-15 01:09:04,387 INFO  [MyWebinarPage] My Webinar Page Title is same as Expected: My Webinars Actual: My Webinars 
+2015-06-15 01:09:04,958 INFO  [MyWebinarPage] Webinar Date:Thu, Jun 18 
+2015-06-15 01:09:05,002 INFO  [MyWebinarPage] Webinar Time:10:12 AM - 11:00 PM EDT 
+2015-06-15 01:09:05,002 INFO  [DateFormats] June 
+2015-06-15 01:09:05,002 INFO  [DateFormats] 18 
+2015-06-15 01:09:05,002 INFO  [Webinar] Month: Jun 
+2015-06-15 01:09:05,002 INFO  [Webinar] Day: 8 
+2015-06-15 01:09:05,003 INFO  [Webinar] Start Time: 10:12 
+2015-06-15 01:09:05,003 INFO  [Webinar] Start AMPM: AM 
+2015-06-15 01:09:05,003 INFO  [Webinar] End Time: 11:00 
+2015-06-15 01:09:05,003 INFO  [Webinar] End AMPM: PM 
+2015-06-15 01:09:11,806 INFO  [DriverTest] End of Test suite execution 
+2015-06-15 01:42:57,462 INFO  [UserAuthentication] UserNameeie_kalai@yahoo.com 
+2015-06-15 01:42:57,547 INFO  [HomePage] Page Title is: Webinar & Online Conference | GoToWebinar 
+2015-06-15 01:42:59,645 INFO  [UserAuthentication] Page Title is: Citrix Secure Sign In 
+2015-06-15 01:42:59,645 INFO  [UserAuthentication] Email Address: eie_kalai@yahoo.com 
+2015-06-15 01:43:05,050 INFO  [UserAuthentication] Sign In button clicked 
+2015-06-15 01:43:05,097 INFO  [ScheduleWebinarTest] Test case TC001 execution starts now. 
+2015-06-15 01:43:05,234 INFO  [Webinar] Day to start: 3 
+2015-06-15 01:43:05,234 INFO  [Webinar] Start Time: 10:12 
+2015-06-15 01:43:05,234 INFO  [Webinar] Start Time AMPM: AM 
+2015-06-15 01:43:05,234 INFO  [Webinar] End Time: 11:00 
+2015-06-15 01:43:05,234 INFO  [Webinar] Start Time AMPM: PM 
+2015-06-15 01:43:05,234 INFO  [Webinar] Time Zone: (GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 01:43:05,234 INFO  [Webinar] Language: FranÃ§ais 
+2015-06-15 01:43:05,265 INFO  [MyWebinarPage] Page Title is: My Webinars 
+2015-06-15 01:43:05,265 INFO  [MyWebinarPage] My Webinar Page Title is same as Expected: My Webinars Actual: My Webinars 
+2015-06-15 01:43:07,987 INFO  [ScheduleWebinarPage] Page Title is: Schedule a Webinar 
+2015-06-15 01:43:07,987 INFO  [ScheduleWebinarPage] New Webinar Title: Full day Webinar 
+2015-06-15 01:43:08,746 INFO  [ScheduleWebinarPage] Date Picker Title is: Choose a date: 
+2015-06-15 01:43:08,822 INFO  [DateFormats] 18 
+2015-06-15 01:43:08,838 INFO  [DateFormats] June 
+2015-06-15 01:43:09,409 INFO  [ScheduleWebinarPage] Total List Items=2 
+2015-06-15 01:43:09,419 INFO  [ScheduleWebinarPage] Current List Item=AM 
+2015-06-15 01:43:09,419 INFO  [ScheduleWebinarPage] Current List Item is selected=AM 
+2015-06-15 01:43:09,677 INFO  [ScheduleWebinarPage] Total List Items=2 
+2015-06-15 01:43:09,790 INFO  [ScheduleWebinarPage] Current List Item=AM 
+2015-06-15 01:43:09,831 INFO  [ScheduleWebinarPage] Current List Item=PM 
+2015-06-15 01:43:09,831 INFO  [ScheduleWebinarPage] Current List Item is selected=PM 
+2015-06-15 01:43:10,207 INFO  [ScheduleWebinarPage] Total List Items=73 
+2015-06-15 01:43:10,221 INFO  [ScheduleWebinarPage] Current List Item=(GMT-11:00) Midway Island, Samoa 
+2015-06-15 01:43:10,232 INFO  [ScheduleWebinarPage] Current List Item=(GMT-10:00) Hawaii 
+2015-06-15 01:43:10,239 INFO  [ScheduleWebinarPage] Current List Item=(GMT-08:00) Alaska 
+2015-06-15 01:43:10,248 INFO  [ScheduleWebinarPage] Current List Item=(GMT-07:00) Arizona 
+2015-06-15 01:43:10,256 INFO  [ScheduleWebinarPage] Current List Item=(GMT-07:00) Pacific Time (US and Canada);Tijuana 
+2015-06-15 01:43:10,265 INFO  [ScheduleWebinarPage] Current List Item=(GMT-06:00) Mountain Time (US and Canada) 
+2015-06-15 01:43:10,272 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Bogota, Lima, Quito 
+2015-06-15 01:43:10,281 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Central Time (US and Canada) 
+2015-06-15 01:43:10,289 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Mexico City 
+2015-06-15 01:43:10,297 INFO  [ScheduleWebinarPage] Current List Item=(GMT-04:30) Caracas, La Paz 
+2015-06-15 01:43:10,305 INFO  [ScheduleWebinarPage] Current List Item=(GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 01:43:10,305 INFO  [ScheduleWebinarPage] Current List Item is selected=(GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 01:43:10,470 INFO  [ScheduleWebinarPage] Total List Items=6 
+2015-06-15 01:43:10,480 INFO  [ScheduleWebinarPage] Current List Item=Deutsch 
+2015-06-15 01:43:10,488 INFO  [ScheduleWebinarPage] Current List Item=English 
+2015-06-15 01:43:10,498 INFO  [ScheduleWebinarPage] Current List Item=EspaÃ±ol 
+2015-06-15 01:43:10,506 INFO  [ScheduleWebinarPage] Current List Item=FranÃ§ais 
+2015-06-15 01:43:10,506 INFO  [ScheduleWebinarPage] Current List Item is selected=FranÃ§ais 
+2015-06-15 01:43:14,834 INFO  [Webinar] Day to start: 3 
+2015-06-15 01:43:14,865 INFO  [Webinar] Start Time: 10:12 
+2015-06-15 01:43:14,865 INFO  [Webinar] Start Time AMPM: AM 
+2015-06-15 01:43:14,865 INFO  [Webinar] End Time: 11:00 
+2015-06-15 01:43:14,865 INFO  [Webinar] Start Time AMPM: PM 
+2015-06-15 01:43:14,865 INFO  [Webinar] Time Zone: (GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 01:43:14,865 INFO  [Webinar] Language: FranÃ§ais 
+2015-06-15 01:43:14,898 INFO  [ScheduleWebinarPage] Page Title is: Manage Webinar 
+2015-06-15 01:43:14,926 INFO  [ScheduleWebinarPage] webinarID7209808172799094530 
+2015-06-15 01:43:17,236 INFO  [MyWebinarPage] Page Title is: My Webinars 
+2015-06-15 01:43:17,237 INFO  [MyWebinarPage] My Webinar Page Title is same as Expected: My Webinars Actual: My Webinars 
+2015-06-15 01:43:18,636 INFO  [MyWebinarPage] Webinar Date:Thu, Jun 18 
+2015-06-15 01:43:18,678 INFO  [MyWebinarPage] Webinar Time:10:12 AM - 11:00 PM EDT 
+2015-06-15 01:43:18,679 INFO  [DateFormats] June 
+2015-06-15 01:43:18,679 INFO  [DateFormats] 18 
+2015-06-15 01:43:18,679 INFO  [Webinar] Month: Jun 
+2015-06-15 01:43:18,679 INFO  [Webinar] Day: 8 
+2015-06-15 01:43:18,679 INFO  [Webinar] Start Time: 10:12 
+2015-06-15 01:43:18,680 INFO  [Webinar] Start AMPM: AM 
+2015-06-15 01:43:18,680 INFO  [Webinar] End Time: 11:00 
+2015-06-15 01:43:18,680 INFO  [Webinar] End AMPM: PM 
+2015-06-15 01:43:21,092 INFO  [DriverTest] End of Test suite execution 
+2015-06-15 01:48:47,916 INFO  [UserAuthentication] UserNameeie_kalai@yahoo.com 
+2015-06-15 01:48:47,987 INFO  [HomePage] Page Title is: Webinar & Online Conference | GoToWebinar 
+2015-06-15 01:48:50,505 INFO  [UserAuthentication] Page Title is: Citrix Secure Sign In 
+2015-06-15 01:48:50,505 INFO  [UserAuthentication] Email Address: eie_kalai@yahoo.com 
+2015-06-15 01:48:54,228 INFO  [UserAuthentication] Sign In button clicked 
+2015-06-15 01:48:54,255 INFO  [ScheduleWebinarTest] Test case TC001 execution starts now. 
+2015-06-15 01:48:54,397 INFO  [Webinar] Day to start: 3 
+2015-06-15 01:48:54,398 INFO  [Webinar] Start Time: 10:12 
+2015-06-15 01:48:54,398 INFO  [Webinar] Start Time AMPM: AM 
+2015-06-15 01:48:54,398 INFO  [Webinar] End Time: 11:00 
+2015-06-15 01:48:54,398 INFO  [Webinar] Start Time AMPM: PM 
+2015-06-15 01:48:54,398 INFO  [Webinar] Time Zone: (GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 01:48:54,398 INFO  [Webinar] Language: FranÃ§ais 
+2015-06-15 01:48:54,432 INFO  [MyWebinarPage] Page Title is: My Webinars 
+2015-06-15 01:48:54,432 INFO  [MyWebinarPage] My Webinar Page Title is same as Expected: My Webinars Actual: My Webinars 
+2015-06-15 01:48:55,680 INFO  [ScheduleWebinarPage] Page Title is: Schedule a Webinar 
+2015-06-15 01:48:55,681 INFO  [ScheduleWebinarPage] New Webinar Title: My First Webinar 
+2015-06-15 01:48:56,488 INFO  [ScheduleWebinarPage] Date Picker Title is: Choose a date: 
+2015-06-15 01:48:56,518 INFO  [DateFormats] 18 
+2015-06-15 01:48:56,518 INFO  [DateFormats] June 
+2015-06-15 01:48:57,195 INFO  [ScheduleWebinarPage] Total List Items=2 
+2015-06-15 01:48:57,204 INFO  [ScheduleWebinarPage] Current List Item=AM 
+2015-06-15 01:48:57,204 INFO  [ScheduleWebinarPage] Current List Item is selected=AM 
+2015-06-15 01:48:57,417 INFO  [ScheduleWebinarPage] Total List Items=2 
+2015-06-15 01:48:57,426 INFO  [ScheduleWebinarPage] Current List Item=AM 
+2015-06-15 01:48:57,434 INFO  [ScheduleWebinarPage] Current List Item=PM 
+2015-06-15 01:48:57,434 INFO  [ScheduleWebinarPage] Current List Item is selected=PM 
+2015-06-15 01:48:57,587 INFO  [ScheduleWebinarPage] Total List Items=73 
+2015-06-15 01:48:57,598 INFO  [ScheduleWebinarPage] Current List Item=(GMT-11:00) Midway Island, Samoa 
+2015-06-15 01:48:57,607 INFO  [ScheduleWebinarPage] Current List Item=(GMT-10:00) Hawaii 
+2015-06-15 01:48:57,615 INFO  [ScheduleWebinarPage] Current List Item=(GMT-08:00) Alaska 
+2015-06-15 01:48:57,624 INFO  [ScheduleWebinarPage] Current List Item=(GMT-07:00) Arizona 
+2015-06-15 01:48:57,632 INFO  [ScheduleWebinarPage] Current List Item=(GMT-07:00) Pacific Time (US and Canada);Tijuana 
+2015-06-15 01:48:57,641 INFO  [ScheduleWebinarPage] Current List Item=(GMT-06:00) Mountain Time (US and Canada) 
+2015-06-15 01:48:57,649 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Bogota, Lima, Quito 
+2015-06-15 01:48:57,659 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Central Time (US and Canada) 
+2015-06-15 01:48:57,666 INFO  [ScheduleWebinarPage] Current List Item=(GMT-05:00) Mexico City 
+2015-06-15 01:48:57,675 INFO  [ScheduleWebinarPage] Current List Item=(GMT-04:30) Caracas, La Paz 
+2015-06-15 01:48:57,682 INFO  [ScheduleWebinarPage] Current List Item=(GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 01:48:57,682 INFO  [ScheduleWebinarPage] Current List Item is selected=(GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 01:48:58,233 INFO  [ScheduleWebinarPage] Total List Items=6 
+2015-06-15 01:48:58,248 INFO  [ScheduleWebinarPage] Current List Item=Deutsch 
+2015-06-15 01:48:58,266 INFO  [ScheduleWebinarPage] Current List Item=English 
+2015-06-15 01:48:58,286 INFO  [ScheduleWebinarPage] Current List Item=EspaÃ±ol 
+2015-06-15 01:48:58,300 INFO  [ScheduleWebinarPage] Current List Item=FranÃ§ais 
+2015-06-15 01:48:58,300 INFO  [ScheduleWebinarPage] Current List Item is selected=FranÃ§ais 
+2015-06-15 01:49:00,554 INFO  [Webinar] Day to start: 3 
+2015-06-15 01:49:00,554 INFO  [Webinar] Start Time: 10:12 
+2015-06-15 01:49:00,554 INFO  [Webinar] Start Time AMPM: AM 
+2015-06-15 01:49:00,555 INFO  [Webinar] End Time: 11:00 
+2015-06-15 01:49:00,555 INFO  [Webinar] Start Time AMPM: PM 
+2015-06-15 01:49:00,555 INFO  [Webinar] Time Zone: (GMT-04:00) Eastern Time (US and Canada) 
+2015-06-15 01:49:00,555 INFO  [Webinar] Language: FranÃ§ais 
+2015-06-15 01:49:00,685 INFO  [ScheduleWebinarPage] Page Title is: Manage Webinar 
+2015-06-15 01:49:00,715 INFO  [ScheduleWebinarPage] webinarID5334620778441165569 
+2015-06-15 01:49:02,707 INFO  [MyWebinarPage] Page Title is: My Webinars 
+2015-06-15 01:49:02,707 INFO  [MyWebinarPage] My Webinar Page Title is same as Expected: My Webinars Actual: My Webinars 
+2015-06-15 01:49:03,591 INFO  [MyWebinarPage] Webinar Date:Thu, Jun 18 
+2015-06-15 01:49:03,631 INFO  [MyWebinarPage] Webinar Time:10:12 AM - 11:00 PM EDT 
+2015-06-15 01:49:03,631 INFO  [DateFormats] June 
+2015-06-15 01:49:03,631 INFO  [DateFormats] 18 
+2015-06-15 01:49:03,631 INFO  [Webinar] Month: Jun 
+2015-06-15 01:49:03,631 INFO  [Webinar] Day: 8 
+2015-06-15 01:49:03,632 INFO  [Webinar] Start Time: 10:12 
+2015-06-15 01:49:03,632 INFO  [Webinar] Start AMPM: AM 
+2015-06-15 01:49:03,632 INFO  [Webinar] End Time: 11:00 
+2015-06-15 01:49:03,632 INFO  [Webinar] End AMPM: PM 
+2015-06-15 01:49:06,377 INFO  [DriverTest] End of Test suite execution 
