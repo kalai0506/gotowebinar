@@ -21,15 +21,16 @@ public class XMLUtility {
 	final static Logger Log = Logger.getLogger(XMLUtility.class.getName());
 
 	public HashMap<String,String> getXMLData() throws Exception {
-		String appURL="";
-		String testDataPath="";
-		String browser="";
-		String chromedriverpath="";
+		String appURL=null;
+		String testDataPath=null;
+		String browser=null;
+		String chromeDriverPath=null;
+		String firefoxPath=null;
 
 		HashMap<String,String> hashMapEnvVariables = new HashMap<String, String>();
 		hashMapEnvVariables.clear();
 		try {
-			File envVarXMLFile = new File("TestData//envconfig.xml"); // XML file path
+			File envVarXMLFile = new File("Resources//envconfig.xml"); // XML file path
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(envVarXMLFile);
@@ -52,11 +53,11 @@ public class XMLUtility {
 					appURL=eElement.getElementsByTagName("appURL").item(0).getTextContent();
 					System.out.println("appURL : " + appURL);
 					testDataPath=eElement.getElementsByTagName("testdatapath").item(0).getTextContent();
-					chromedriverpath=eElement.getElementsByTagName("chromedriver").item(0).getTextContent();
+					chromeDriverPath=eElement.getElementsByTagName("chromedriver").item(0).getTextContent();
 					hashMapEnvVariables.put("browser", browser);
 					hashMapEnvVariables.put("appURL", appURL);
 					hashMapEnvVariables.put("testDataPath", testDataPath);
-					hashMapEnvVariables.put("chromeDriverPath", chromedriverpath);
+					hashMapEnvVariables.put("chromeDriverPath", chromeDriverPath);
 				}
 			}
 		} catch (FileNotFoundException e) {

@@ -42,8 +42,10 @@ public class DriverTest {
 		String browser=envXMLVariables.get("browser");
 		String appURL=envXMLVariables.get("appURL");
 		testDataPath=envXMLVariables.get("testDataPath");
+		String chromeDriverPath=envXMLVariables.get("chromeDriverPath");
+		String firefoxBrowserPath=envXMLVariables.get("firefoxBrowserPath");
 		FrameworkMethods objFrmWrk=new FrameworkMethods();
-		driver = objFrmWrk.getWebDriver(browser);
+		driver = objFrmWrk.getWebDriver(browser,chromeDriverPath,firefoxBrowserPath);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);	
 		driver.get(appURL);
 		driver.manage().window().maximize();
