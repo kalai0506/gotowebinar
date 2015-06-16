@@ -1,5 +1,5 @@
 # gotowebinar
-Selenium Test Automation POC for citrix's gotowebinar.com
+Selenium Test Automation  for citrix's gotowebinar.com ->Schedule a new webinar
 
 1. Please create a maven project and add my files downloaded from the URL below into the maven project. 
 https://github.com/kalai0506/gotowebinar
