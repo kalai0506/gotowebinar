@@ -30,7 +30,7 @@ public class FrameworkMethods {
 	 */
 	public WebDriver getWebDriver(String browser, String chromeDriverExe,String firefoxPath) throws Exception{
 		if(browser.equalsIgnoreCase("chrome")){
-			System.setProperty("webdriver.chrome.driver", "misc/chromedriver");
+			System.setProperty("webdriver.chrome.driver", chromeDriverExe);
 			driver=new ChromeDriver();
 		}else if(browser.equalsIgnoreCase("htmlunit")){
 			driver=new HtmlUnitDriver();
