@@ -35,7 +35,7 @@ public class FrameworkMethods {
 		}else if(browser.equalsIgnoreCase("htmlunit")){
 			driver=new HtmlUnitDriver();
 		}else {
-			System.setProperty("webdriver.firefox.bin", firefoxPath);
+			//System.setProperty("webdriver.firefox.bin", firefoxPath);
 			driver=new FirefoxDriver();
 		}
 		return driver;
